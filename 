@@ -1,0 +1,39 @@
+[1mdiff --cc Project1/Notebooks/Test.ipynb[m
+[1mindex 4553b34,a4f8df1..0000000[m
+[1m--- a/Project1/Notebooks/Test.ipynb[m
+[1m+++ b/Project1/Notebooks/Test.ipynb[m
+[36m@@@ -195,7 -195,30 +195,34 @@@[m
+    },[m
+    {[m
+     "cell_type": "code",[m
+[32m++<<<<<<< HEAD:Project1/Notebooks/Test.ipynb[m
+[32m +   "execution_count": 3,[m
+[32m++=======[m
+[32m+    "execution_count": 183,[m
+[32m+    "id": "d11f93ae-1f00-4e74-8d88-972d297a6280",[m
+[32m+    "metadata": {},[m
+[32m+    "outputs": [[m
+[32m+     {[m
+[32m+      "ename": "AttributeError",[m
+[32m+      "evalue": "'Series' object has no attribute 'Sum'",[m
+[32m+      "output_type": "error",[m
+[32m+      "traceback": [[m
+[32m+       "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",[m
+[32m+       "\u001b[0;31mAttributeError\u001b[0m                            Traceback (most recent call last)",[m
+[32m+       "\u001b[0;32m/var/folders/jh/r0k5kntd0nzgw4m5nxb7jncr0000gn/T/ipykernel_13631/1574639918.py\u001b[0m in \u001b[0;36m?\u001b[0;34m()\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mdf\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m'Model'\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mvalue_counts\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mSum\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",[m
+[32m+       "\u001b[0;32m/opt/anaconda3/lib/python3.12/site-packages/pandas/core/generic.py\u001b[0m in \u001b[0;36m?\u001b[0;34m(self, name)\u001b[0m\n\u001b[1;32m   6295\u001b[0m             \u001b[0;32mand\u001b[0m \u001b[0mname\u001b[0m \u001b[0;32mnot\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_accessors\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   6296\u001b[0m             \u001b[0;32mand\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_info_axis\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_can_hold_identifiers_and_holds_name\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mname\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   6297\u001b[0m         \u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   6298\u001b[0m             \u001b[0;32mreturn\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0mname\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 6299\u001b[0;31m         \u001b[0;32mreturn\u001b[0m \u001b[0mobject\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m__getattribute__\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mname\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",[m
+[32m+       "\u001b[0;31mAttributeError\u001b[0m: 'Series' object has no attribute 'Sum'"[m
+[32m+      ][m
+[32m+     }[m
+[32m+    ],[m
+[32m+    "source": [[m
+[32m+     "df['Model'].value_counts().Sum()"[m
+[32m+    ][m
+[32m+   },[m
+[32m+   {[m
+[32m+    "cell_type": "code",[m
+[32m+    "execution_count": 75,[m
+[32m++>>>>>>> 46a6abff4c329c32124e02f6deee57042020f2ca:Project1/Test.ipynb[m
+     "id": "8aa1ecd8-d5c7-47f4-927a-e51003d954e3",[m
+     "metadata": {},[m
+     "outputs": [[m
